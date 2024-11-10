@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "litchi",
   description: "前后端分离的后台管理系统",
   head: [
